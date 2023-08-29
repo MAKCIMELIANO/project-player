@@ -3,6 +3,8 @@ import Card from './Card';
 import Controls from './Controls';
 import Progress from './Progress';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 export default class Reader extends Component {
   state = {
     index: 0,
